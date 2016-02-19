@@ -8,11 +8,11 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main {
 
 	public static void main(String[] args) throws InterruptedException {
-		//com.alibaba.dubbo.container.Main.main(args);
+		com.alibaba.dubbo.container.Main.main(args);
 		
-		Main launcher=new Main();
+		/*Main launcher=new Main();
 		launcher.start();
-		Thread.sleep(1000*60*10);
+		Thread.sleep(1000*60*10);*/
 	}
 	
 	void start(){
